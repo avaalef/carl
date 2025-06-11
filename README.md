@@ -11,4 +11,5 @@ The command for compiling into a .bin with NASM is: `nasm -f bin boot.asm -o boo
 ## How to run
 
 Run with QEMU: `& "C:\Program Files\qemu\qemu-system-x86_64.exe" -fda boot.bin` (IF YOU DONT HAVE ADDED IT IN PATH, POWERSHELL)
+<br>
 or also: `qemu-system-x86_64 -fda boot.bin`
