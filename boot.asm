@@ -57,7 +57,6 @@ init_pm:
     mov si, string_pm
     call print_string_pm
 
-    ; Wait for key
     call read_key_pm
 
 .pm_hang:
@@ -111,6 +110,5 @@ gdt_descriptor:
     dw gdt_end - gdt_start - 1
     dd gdt_start
 
-; Boot signature
 times 510 - ($ - $$) db 0
 dw 0xAA55
