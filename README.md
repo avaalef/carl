@@ -10,4 +10,4 @@ The command for compiling into a .bin is: `nasm -f bin boot.asm -o boot.bin`
 
 ## How to run
 
-Run with QEMU: `nasm -f bin boot.asm -o boot.bin` & "C:\Program Files\qemu\qemu-system-x86_64.exe" -fda boot.bin
+Run with QEMU: `& "C:\Program Files\qemu\qemu-system-x86_64.exe" -fda boot.bin`
