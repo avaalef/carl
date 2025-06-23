@@ -1,6 +1,6 @@
 # Carl
 
-WARNING: Carl is now discontinued.
+## WARNING: Carl is now discontinued.
 
 "Carl" is a simple "kernel" made in the Assembly programming language.
 
